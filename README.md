@@ -1,17 +1,20 @@
+対応OS
+Windows Server 2008、Standard、HPC、Datacenter、Enterprise
+Windows Web Server 2008
+Windows Server 2008 R2 Standard、Datacenter、Enterprise
+Windows Server 2012 Standard、Essential、Datacenter
+Windows Server 2012 R2 ↑と同じ
+Windows Server 2016 ↑と同じ
+Windows Server 2019 ↑と同じ
+Windows Server 2022 Standard、Datacenter
+Windows Vista Business&Enterprise
+Windows 7 Professional&Enterprise
+Windows 8 Pro＆Enterprise
+Windows 8.1 Pro&Enterprise
+Windows 10& 11 Pro&Enterprise＆Education
 日本語専用となっております。
 これはKMS認証システムを利用した、ライセンス認証システムとなっています。
-何日に一回かはこのbatを実行する必要がありますが、無料で認証できます。
-まず、このソフトは、手動の部分もありますので、ご了承ください。
-対応OS　WIndows 7 professional　
-windows 8 professional
-windows 8.1 professional
-windows 10 professional
-windows 11 professional
 となっています。
-これ以外のOSは使えないので、ご了承ください。
 使い方
-BATファイルを管理者権限で実行します。
-認証しようとしているOSにあった数字を入力してください。
-そうすると、何かのダイアログが出てきます。
-ここで手動でOKを押す必要があるので、ご了承ください。
-OKを押し続けると、できます。
+こちらは、半自動システムとなっております。
+数字やyを押す手間は多少ありますが。ご了承ください。
