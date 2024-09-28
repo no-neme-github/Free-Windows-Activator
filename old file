@@ -4,16 +4,16 @@ net session >nul 2>&1
 if %errorLevel% == 0 (
     goto :continue
 ) else (
-    echo �Ǘ��Ҍ����Ŏ��s���Ă��������B
+    echo 管理者権限で実行してください。
     pause >nul
     exit /b
 )
 :continue
-echo create�@by noneme
-echo Windows 11 pro Auto license�@Authentication system v1.1
-echo ���s���Ă��܂�...
-echo �_�C�A���O���o�Ă���̂ŁAOK���蓮�ŃN���b�N���Ă��������B
-echo ���g����OS�͂Ȃ�ł����H�擪�̐�������͂��肢���܂��B
+echo create　by noneme
+echo Windows 11 pro Auto license　Authentication system v1.1
+echo 実行しています...
+echo ダイアログが出てくるので、OKを手動でクリックしてください。
+echo お使いのOSはなんですか？先頭の数字を入力お願いします。
 echo 1.winodws7 pro
 echo 2.windows8 pro
 echo 3.windows8.1 pro
@@ -26,8 +26,8 @@ if %Key%==4 goto win10pro
 goto e
 
 :e
-�������F���ł��܂���ł����B���p�����œ��͂��Ă��������B
-echo ���g����OS�͂Ȃ�ł����H�擪�̐�������͂��肢���܂��B
+文字が認識できませんでした。半角数字で入力してください。
+echo お使いのOSはなんですか？先頭の数字を入力お願いします。
 echo 1.winodws7 pro
 echo 2.windows8 pro
 echo 3.windows8.1 pro
@@ -57,9 +57,9 @@ goto act
 
 :act
 slmgr /upk
-echo �v���_�N�g�L�[���폜���Ă��܂�...
+echo プロダクトキーを削除しています...
 slmgr /ipk %lkey%
 slmgr /skms kms8.msguides.com
 slmgr /ato
-pause �������܂����B�@10�b��Ɏ����I�ɕ��܂��B
+pause 完了しました。　10秒後に自動的に閉じます。
 timeout 10
